@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.smallCursor {
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+
+  /* set small cursor position */
+  position: absolute;
+  top:0px;
+  left: 0px;
+  transform: translate(-50%, -50%);
+
+}
+.shadowCursor {
+  width: 60px;
+  height: 60px;
+  background-color: red;
+  border-radius: 50%;
+  filter: blur(30px);
+
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(-50%, -50%);
+
+}
+
+
+
+
+
+
+
+
+
+
